@@ -95,6 +95,12 @@ switch:
   - platform: template
     name: "Line 1"
     id: line_1
+    lambda: |-
+      if (id(change_gang_1).state) {
+        return true;
+      } else {
+        return false;
+      }
     turn_on_action:
       - logger.log: "Line 1 is ON"
       - remote_transmitter.transmit_rc_switch_raw:
@@ -113,6 +119,12 @@ switch:
   - platform: template
     name: "Line 2"
     id: line_2
+    lambda: |-
+      if (id(change_gang_2).state) {
+        return true;
+      } else {
+        return false;
+      }
     turn_on_action:
       - logger.log: "Line 2 is ON"
       - remote_transmitter.transmit_rc_switch_raw:
