@@ -6,7 +6,7 @@ Solution for integration in Home Assistant via esphome.
 # Tips
 
 How to program?
-Press line button and wait beep signal.
+Long press line touch and wait beep signal.
 
 * 1 signal - on and off
 * 2 signals - only inclusion
