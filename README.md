@@ -9,8 +9,8 @@ How to program?
 Long press line touch and wait beep signal.
 
 * 1 signal - on and off
-* 2 signals - only inclusion
-* 3 signals - only shutdown
+* 2 signals - only on
+* 3 signals - only off
 * 4 signals - full reset.
 
 In this configuration, the on and off commands are the same, you need to program for 1 sound signal.
